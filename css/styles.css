@@ -227,6 +227,7 @@ body {
     z-index: -1;
     border-radius: 0.8rem;
     transition: .35s;
+    opacity: 0.5;
 }
 
 .bg-soft-red::after {
@@ -240,8 +241,12 @@ body {
     z-index: -1;
     border-radius: 0.8rem;
     transition: .35s;
+    opacity: 0.5;
 }
 
+.bg-yellow:hover::after, .bg-soft-red:hover:after {
+    opacity: 1;
+}
 
 .feature-img {
     flex-basis: 50%;
